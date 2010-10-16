@@ -9,7 +9,8 @@ autocmd!
 "General behavior
 set nocompatible
 behave xterm
-
+set mouse=a
+set clipboard=unnamed
 
 "Set mapleader
 let mapleader = ","
@@ -17,8 +18,8 @@ let g:mapleader = ","
 
   
 "colors
-set background=light
-colorscheme default
+"set background=light
+"colorscheme default
 "set background=dark
 "colorscheme vividchalk
 
